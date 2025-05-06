@@ -113,7 +113,6 @@
 .cover__discription-text {
   font-size: 22px;
   word-spacing: 6px;
-  letter-spacing: Mixed;
   word-spacing: 18px;
   color: #ffffff;
   z-index: 1;
@@ -217,6 +216,12 @@
   margin-right: 24px;
 }
 
+.about__column {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
 .about_logo {
   width: 240px;
   height: 240px;
@@ -228,7 +233,9 @@
 }
 
 .about__column-padding {
+  padding-top: 3px;
   padding-left: 24px;
+  padding-right: 7px;
 }
 
 .about__title {
@@ -239,10 +246,9 @@
   text-transform: uppercase;
 }
 
-.about__column {
-  line-height: 24px;
-  font-weight: 400;
+.about__text {
   font-size: 20px;
+  line-height: 24px;
 }
 
 .about__column :nth-child(2) {
@@ -250,9 +256,16 @@
 }
 
 .footer {
-  margin: 185px 50px 82px;
+  margin: 183px 50px 82px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__address {
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  font-size: 18px;
 }
 
 .footer__menu-list {
@@ -263,15 +276,13 @@
   font-size: 18px;
 }
 
+.footer__menu-link {
+  text-underline-offset: 3px;
+}
+
 .footer__social {
   max-height: 48px;
   max-width: 100%;
-}
-
-.footer__address {
-  margin: 0;
-  line-height: 24px;
-  font-size: 18px;
 }
 
 .footer__menu-socials {
